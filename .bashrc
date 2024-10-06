@@ -141,3 +141,9 @@ alias a="open /home/osamaps/Desktop/Programming/Programming-projects/java_assign
 alias gl="git log --all --graph --decorate"
 alias mc="git ls-tree -r master"
 alias tw="tmux attach -t"
+function md() {
+    mkdir -p "$1" && cd "$1"
+}
+alias p="cd ~/Practice"
+alias android="/home/osamaps/Applications/android-studio/bin/studio.sh"
+alias postgs="sudo -u postgres psql"
