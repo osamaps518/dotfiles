@@ -147,3 +147,4 @@ function md() {
 alias p="cd ~/Practice"
 alias android="/home/osamaps/Applications/android-studio/bin/studio.sh"
 alias postgs="sudo -u postgres psql"
+alias telegram="cd /home/osamaps/Practice && ./launch-telegram.sh"
